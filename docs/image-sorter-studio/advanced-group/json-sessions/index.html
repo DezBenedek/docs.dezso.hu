@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">JSON Munkamenet Mentés és Betöltés | docs.dezso.hu</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.dezso.hu/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://docs.dezso.hu/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://docs.dezso.hu/docs/image-sorter-studio/advanced-group/json-sessions"><meta data-rh="true" property="og:locale" content="hu"><meta data-rh="true" name="docusaurus_locale" content="hu"><meta data-rh="true" name="docsearch:language" content="hu"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="JSON Munkamenet Mentés és Betöltés | docs.dezso.hu"><meta data-rh="true" name="description" content="A JSON-ba történő exportálás lehetővé teszi a teljes válogatási munkamenet (értékelések, jelölések, elutasítások) mentését és visszatöltését."><meta data-rh="true" property="og:description" content="A JSON-ba történő exportálás lehetővé teszi a teljes válogatási munkamenet (értékelések, jelölések, elutasítások) mentését és visszatöltését."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.dezso.hu/docs/image-sorter-studio/advanced-group/json-sessions"><link data-rh="true" rel="alternate" href="https://docs.dezso.hu/docs/image-sorter-studio/advanced-group/json-sessions" hreflang="hu"><link data-rh="true" rel="alternate" href="https://docs.dezso.hu/docs/image-sorter-studio/advanced-group/json-sessions" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Haladó funkciók","item":"https://docs.dezso.hu/docs/category/haladó-funkciók-1"},{"@type":"ListItem","position":2,"name":"JSON Munkamenet Mentés és Betöltés","item":"https://docs.dezso.hu/docs/image-sorter-studio/advanced-group/json-sessions"}]}</script><link rel="stylesheet" href="/assets/css/styles.51d22c16.css">
-<script src="/assets/js/runtime~main.305a3cf6.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.2618aa19.js" defer="defer"></script>
 <script src="/assets/js/main.fbd61a8b.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -15,9 +15,9 @@
 <p>A JSON-ba történő exportálás lehetővé teszi a teljes válogatási munkamenet (értékelések, jelölések, elutasítások) mentését és visszatöltését.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="miért-használd">Miért használd?<a href="#miért-használd" class="hash-link" aria-label="Közvetlen hivatkozás erre: Miért használd?" title="Közvetlen hivatkozás erre: Miért használd?" translate="no">​</a></h2>
 <ul>
-<li class=""><strong>Szünet a munkában:</strong> Le kell állnod a válogatáshoz? Mentsd el és folytasd később</li>
-<li class=""><strong>Biztonsági mentés:</strong> a munkamenet védelmet kap</li>
-<li class=""><strong>Megosztás:</strong> Kollegákkal megoszthatod a válogatás eredményét</li>
+<li class=""><strong>Szünet a munkában:</strong> Le kell állnod a válogatással? Mentsd el és folytasd később</li>
+<li class=""><strong>Biztonsági mentés:</strong> az adataid biztonságban lesznek</li>
+<li class=""><strong>Megosztás:</strong> Kollégákkal megoszthatod a válogatás eredményét</li>
 <li class=""><strong>Szervezés:</strong> Adatok elemzéséhez vagy szűréshez</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="json-letöltése-mentés">JSON letöltése (mentés)<a href="#json-letöltése-mentés" class="hash-link" aria-label="Közvetlen hivatkozás erre: JSON letöltése (mentés)" title="Közvetlen hivatkozás erre: JSON letöltése (mentés)" translate="no">​</a></h2>
@@ -71,11 +71,11 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ismert-korlátok">Ismert korlátok<a href="#ismert-korlátok" class="hash-link" aria-label="Közvetlen hivatkozás erre: Ismert korlátok" title="Közvetlen hivatkozás erre: Ismert korlátok" translate="no">​</a></h2>
 <ul>
 <li class="">A JSON csak az <strong>értékeléseket, jelöléseket és elutasításokat</strong> tartalmazza, nem a valódi képfájlokat</li>
-<li class="">Ha egy fájl később <strong>átnevezésre</strong> kerül, az adatok nem asszociálódnak automatikusan</li>
+<li class="">Ha egy fájl később <strong>átnevezésre</strong> kerül, az adatok nem kerülnek automatikusan párosításra</li>
 <li class="">A RAW-only fájlok JSON-ben ugyanúgy vannak tárolva, mint a normál képek</li>
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="haladó--szöveges-szerkesztés">Haladó — Szöveges szerkesztés<a href="#haladó--szöveges-szerkesztés" class="hash-link" aria-label="Közvetlen hivatkozás erre: Haladó — Szöveges szerkesztés" title="Közvetlen hivatkozás erre: Haladó — Szöveges szerkesztés" translate="no">​</a></h2>
-<p>Ha erősen technikusnak érzed magad, a JSON fájlt szöveges szerkesztővel (Notepad++, VS Code) módosíthatod:</p>
+<p>Ha ismered a JSON formátumot, a fájlt bármilyen szöveges szerkesztővel (Notepad++, VS Code) módosíthatod:</p>
 <ol>
 <li class="">Nyisd meg a JSON-t egy szöveges szerkesztőprogramban</li>
 <li class="">Módosítsd az értékeket (<code>rating</code>, <code>flagged</code>, <code>rejected</code>)</li>
