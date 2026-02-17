@@ -47,26 +47,17 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/DezBenedek/docs.dezso.hu/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        },/*
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/DezBenedek/docs.dezso.hu/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -83,9 +74,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Dezso Studios',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,12 +84,17 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Dokumentációk',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'docSidebar',
+            sidebarId: 'imageSorterStudioSidebar',
+            position: 'left',
+            label: 'Image Sorter Studio',
+          },
+          {
+            href: 'https://dezso.hu',
+            label: 'Weboldal',
             position: 'right',
           },
         ],
@@ -107,46 +103,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Dokumentáció',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Image Sorter Studio',
+                to: '/docs/img',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Elérhetőségek',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Email',
+                href: 'mailto:benedek@dezso.hu',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/DezBenedek',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Weboldal',
+                href: 'https://dezso.hu',
               },
             ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dezso Studios. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
