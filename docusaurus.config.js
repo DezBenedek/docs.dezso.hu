@@ -107,7 +107,7 @@ const config = {
             items: [
               {
                 label: 'Image Sorter Studio',
-                to: '/docs/image-sorter-studio',
+                to: '/docs/image-sorter-studio/overview',
               },
             ],
           },
