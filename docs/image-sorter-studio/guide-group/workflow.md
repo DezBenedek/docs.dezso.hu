@@ -10,7 +10,7 @@ Az Image Sorter Studio a **3 körös selejtezési módszeren** alapul. Ez egy be
 
 ### 1. kör: Selejtezés (Reject)
 
-Az első körben elmulasztott/jellegzetes képeket jelölöd meg az **X** gombbal vagy **Delete** billentyűvel.
+Az első körben a nyilvánvalóan hibás képeket jelölöd meg az **X** gombbal.
 
 **Mitől jelöl meg selejtezésre:**
 - Teljesen elmosódott felvételek
@@ -19,21 +19,21 @@ Az első körben elmulasztott/jellegzetes képeket jelölöd meg az **X** gombba
 - Technikai hibák (túlexponált, alulexponált)
 - Képernyő-szelek vagy véletlen felvételek
 
-**Milyen számon látszik:**
-- Selejtezett képekre egy **szürke X** ikon jelenik meg
-- Az exportáláskor selejtezett képek nem kerülnek kiválasztásra
+**Hogyan jelenik meg:**
+- Selejtés után a képen egy **szürke X** ikon jelenik meg
+- Exportáláskor a selejtézett képek kihagyodásra kerülnek
 
 ### 2. kör: Finomítás (Flag)
 
-A maradék képekből kiválasztod a **flagged** (megjelölt) képeket az **F** billentyűvel.
+A maradék képekből kiválasztod a **flagged** (megjelölt) képeket az **Y** billentyűvel.
 
-**Mitől jelöl meg flaggednek:**
+**Mit jelölj meg flagként:**
 - Képek, amelyek potenciálisan erős szekcióba kerülhetnek
 - Alternatív szögek vagy pózok
 - Fejlesztésre érdemes, de még nem "arany"
 
-**Milyen számon látszik:**
-- Flagged képekre egy **kék zászló** ikon jelenik meg
+**Hogyan jelenik meg:**
+- A flagged képeken egy **zöld zászló** ikon jelenik meg
 - A flagged képeket később külön exportálhatod
 
 ### 3. kör: Értékelés (Rating)
@@ -96,7 +96,7 @@ Ha vannak **RAW + JPEG párod:**
 
 Ha egy mappa **csak RAW fájlokat** tartalmaz:
 
-1. Az alkalmazás helyettesítő ikonos megjelenít
+1. Az alkalmazás helyettesítő ikonnal jeleníti meg őket
 2. Az értékelés normálisan működik
 3. Az exportáláskor a RAW fájl közvetlenül másolásra kerül
 
@@ -106,7 +106,7 @@ Lásd: [RAW-only fájlok](../advanced-group/raw-only-files)
 
 ### JSON szekciók mentése
 
-Ha több többi részről selejtezol, és újra vissza szeretnél térni:
+Ha több részletben válogatsz, és később vissza szeretnél térni:
 
 1. Szűrd le az aktuális szekciót (pl. "Bridal", "Family")
 2. Az exportáláskor válassz **JSON export**-ot
@@ -116,7 +116,7 @@ Lásd: [JSON szekciók](../advanced-group/json-sessions)
 
 ### DezsoCloud szinkronizálás
 
-Ha több eszközön szeretnél dolgozni ugyanabba a mappán:
+Ha több eszközön szeretnél dolgozni ugyanazon a mappán:
 
 1. Engedélyezd a DezsoCloud szinkronizálást
 2. Az alkalmazás automatikusan szinkronizálja az értékeléseket
@@ -132,27 +132,26 @@ Komplex szortírozáshoz kombináld az eszközöket:
 1. **Szűrés:** Bridal tag
 2. **Rendezés:** Rating → descending
 3. **Exportálás:** Min. rating = 4
-4. **Export:** Az összes megfelel főzik kiválasztott képek
+4. **Export:** Az összes kiválasztott megfelelő kép exportálva
 
 ## Billentyűparancsok gyorstálálózat
 
 | Billentyű | Funkció |
 |---|---|
 | **1–5** | Csillag beállítása |
-| **F** | Flag (megjelölés) |
+| **Y** | Flag (megjelölés) |
 | **X** | Reject (selejtezés) |
-| **Nyíl fel/le** | Előző/Következő kép |
-| **Szóköz** | Teljes képernyő lezárása |
+| **Nyíl bal/jobb** | Előző/Következő kép |
+| **Szóköz** | Zoom be/ki váltás |
 | **+/−** | Zoom |
-| **Ctrl+S** | JSON export (Szerkesztettük: F12 konzol) |
 
 A teljes billentyűparancs lista: [Billentyűparancsok](keyboard-shortcuts)
 
-## Munkasessz vége
+## Munkamenet lezárása
 
 Az exportáláshoz válassz az alábbiak közül:
 
-### Opció 1: Szűrt lista exportálása
+### 1. opció: Szűrt lista exportálása
 ```
 1. Szűrés alkalmazása (min. rating, flag)
 2. Kattints "Export" (📤)
@@ -160,12 +159,12 @@ Az exportáláshoz válassz az alábbiak közül:
 4. "Export" gomb
 ```
 
-### Opció 2: JSON mentés + Szerkesztés
+### 2. opció: JSON mentés + későbbi visszatöltés
 ```
-1. Kattints "JSON Export" (sidecar-ként)
-2. A .json file mentésre kerül
-3. Később szerkesztheti szövegszerkesztővel
-4. Importálja vissza az adatokat
+1. Kattints a "JSON Export" linkre az Export ablakban
+2. A .json fájl mentésre kerül
+3. Később szöveges szerkesztővel módosítható
+4. Importald vissza az adatokat az Import gombbal
 ```
 
 Lásd: [Export útmutató](../features-group/export)

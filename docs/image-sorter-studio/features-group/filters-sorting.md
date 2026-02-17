@@ -39,7 +39,7 @@ A lenyíló listáról kiválasztott rendezési sorrend az aktuálisan szűrt k�
 - **Név (A–Z)** — Fájlnév alfabetikus sorrendben
 - **Név (Z–A)** — Fájlnév fordított alfabetikus sorrendben
 
-A fájlnevek kis- és nagybetű szerinti sorrendet követnek, illetve a számokat alfanumerikusan kezeli.
+A fájlneveket az alkalmazás kis- és nagybetűre érzékenyen rendezi, a számokat alfanumerikusan kezeli.
 
 ### Csillag szerinti rendezés
 

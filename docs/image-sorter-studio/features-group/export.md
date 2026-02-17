@@ -42,7 +42,7 @@ A **„Részletes fájllista megtekintése"** szekció kiterjesztésével látha
 
 | Szín | Jelent | Leírás |
 |---|---|---|
-| 🟢 Zöld | RAW fájlok | Ezek kerülnak másolásra |
+| 🟢 Zöld | RAW fájlok | Ezek kerülnek másolásra |
 | 🟠 Narancs | JPEG fájlok | RAW helyett másolódnak (ha bekapcsolt) |
 | 🔴 Piros | Hiányzó RAW | Kihagyásra kerülnek |
 
@@ -66,5 +66,5 @@ Ha egy fájl másolása meghiúsul (pl. hozzáférési jog hiányában vagy fizi
 ## Tanácsok
 
 - **Gyors előzetes:** Az exportálás előtt szűrd le a képeket az aktuális munkamenet szűrőit használva
-- **Biztonsági mentés:** Az exportálás csak másolja a fájlokat, az origináli megmarad
+- **Biztonsági mentés:** Az exportálás csak másolja a fájlokat, az eredeti megmarad
 - **Többszörös export:** Többször is exportálhatsz ugyanabba a mappába (felülírja az azonos nevű fájlokat)

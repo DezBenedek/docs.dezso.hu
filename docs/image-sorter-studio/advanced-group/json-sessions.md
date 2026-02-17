@@ -4,12 +4,12 @@ sidebar_position: 3
 
 # JSON Munkamenet Mentés és Betöltés
 
-A JSON-ba történő exportálás lehetővé teszi a teljes válogatási munkamenetet (értékelések, jelölések, elutasítások) mentéséd és később visszatöltéséd.
+A JSON-ba történő exportálás lehetővé teszi a teljes válogatási munkamenet (értékelések, jelölések, elutasítások) mentését és visszatöltését.
 
 ## Miért használd?
 
 - **Szünet a munkában:** Le kell állnod a válogatáshoz? Mentsd el és folytasd később
-- **Biztonsági mentés:** a válogatád védelmet kap
+- **Biztonsági mentés:** a munkamenet védelmet kap
 - **Megosztás:** Kollegákkal megoszthatod a válogatás eredményét
 - **Szervezés:** Adatok elemzéséhez vagy szűréshez
 
@@ -74,8 +74,8 @@ A betöltés **nem felülírja** az aktuális adatokat, hanem **összefésüli**
 
 ### Egy adott fotózás több részletben
 
-1. **1. nap:** Betöltöd az első percét képeket, értékelsz, majd **JSON mentést** csinálsz
-2. **2. nap:** Betöltöd ugyanazokat a képeket, a JSON-t visszatöltöd, majd folytatasod az értékelést
+1. **1. nap:** Betöltöd a képek első részét, értékelsz, majd **JSON mentést** csinálsz
+2. **2. nap:** Betöltöd ugyanazokat a képeket, a JSON-t visszatöltöd, majd folytatod az értékelést
 3. **3. nap:** Hasonló, vagy egyik nap végén **új export** záró munkamenethez
 
 ### Több mappa összevonása
@@ -87,7 +87,7 @@ A betöltés **nem felülírja** az aktuális adatokat, hanem **összefésüli**
 ### Biztonsági mentés
 
 1. Rendszeres időközönként **JSON-t mentesz**
-2. Mentsd meg a fájlokat egy külső lemezre vagy felhőře
+2. Mentsd el a fájlokat egy külső lemezre vagy felhőre
 3. Ha szükséges, később visszatöltheted
 
 ## Ismert korlátok
@@ -105,4 +105,4 @@ Ha erősen technikusnak érzed magad, a JSON fájlt szöveges szerkesztővel (No
 3. Mentsd le a fájlt
 4. Töltsd be az alkalmazásba az **Import** gombbal
 
-> ⚠️ **Vigyázat:** A JSON szintaxis helyes kell marad (vesszők, karakter kódolás stb.).
+> ⚠️ **Vigyázat:** A JSON szintaxisának helyesnek kell maradnia (vesszők, karakterkódolás stb.).

@@ -48,7 +48,7 @@ A csillag szűrőnél egy lenyíló menüből választhatod a minimumot (1+, 2+,
 
 ### JSON import
 - **Gomb:** ↑ (felfelé mutató nyíl)
-- **Funkció:** Mentett trabalgemenet (JSON) betöltése
+- **Funkció:** Mentett munkamenet (JSON) betöltése
 
 ### Dokumentáció
 - **Gomb:** 📖 (könyv ikon)

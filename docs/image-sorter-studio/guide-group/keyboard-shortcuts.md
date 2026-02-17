@@ -43,7 +43,7 @@ Az alábbi táblázatban látható az összes elérhető billentyűparancs és a
 A billentyűparancsok módosítása:
 
 1. Kattints a **Beállítások** (⚙️) gombra a fejlécben
-2. A **Billentyűparancsok** szekcióban látod az összes értékelhető parancsot
+2. A **Billentyűparancsok** szekcióban látod az összes elérhető parancsot
 3. Kattints a mező melletti input mezőre, majd nyomd meg a kívánt billentyűt
 4. Kattints a **Mentés** gombra
 

@@ -13,7 +13,7 @@ A Beállítások menü (⚙️) tartalmazza az alkalmazás személyre szabási l
 A fejléc jobb oldalán lévő **nap/hold ikon** (☀️ / 🌙) gombra kattintva válthatod a témákat.
 
 - **Világos mód:** Könnyebb olvashatóság nappali használathoz
-- **Sötét mód:** Könnyebb a szem nappali és éjszakai használatkor
+- **Sötét mód:** Kímélőbb a szemnek, különösen éjszakai használathoz
 
 ### Automatikus detektálás
 
@@ -33,7 +33,7 @@ Kattints a **Beállítások** (⚙️) gombra, majd a **Billentyűparancsok** sz
 
 Minden billentyűparancs módosítható:
 
-1. Kattints a módosítani kívánt beviteli mezzőre
+1. Kattints a módosítani kívánt beviteli mezőre
 2. Nyomd meg az új billentyűt (max 1 karakter)
 3. A billentyű automatikusan feljegyzésre kerül
 4. Kattints a **Mentés** gombra
@@ -60,7 +60,7 @@ Ha még nincsen csatlakozva:
 
 ### Kijelentkezés
 
-Csatlakozottsá után:
+Csatlakozás után:
 1. Kattints a **Kijelentkezés** gombra
 2. A szinkronizálás leáll
 3. A helyi adatok megmaradnak
@@ -74,18 +74,15 @@ A Beállítások ablak alján az alábbiak láthatók:
 - **Verzió:** Az alkalmazás jelenlegi verziószáma
 - **Dokumentáció link** 📖 : A teljes dokumentációra mutató hivatkozás
 
-## Jogi nyilatkozat újra megnyitása
+## Jogi nyilatkozat
 
-A felhasználási feltételek és jogi nyilatkozat (amely az első bejelentkezéskor jelent meg) később sem érhető el az alkalmazásban, de az alábbi helyen hozzáférhető:
-
-- Az alkalmazás indításakor 3 naponta ismét feljelenik
-- Az első elfogadás után az alkalmazás nem kéri meg a kijelentkezésig
+A felhasználási feltételek és jogi nyilatkozat az alkalmazás indításakor 3 naponta újra megjelenik. Az első elfogadás után az alkalmazás a kijelentkezésig nem kéri újra az elfogadást.
 
 ## Helyi tár (LocalStorage)
 
 Az alkalmazás a böngésző helyi tárolóját (LocalStorage) használja az alábbiak mentésére:
 
-| Adat | Mentéslocation |
+| Adat | Tárolási kulcs |
 |---|---|
 | Téma választás | `localStorage['theme']` |
 | Billentyűparancsok | `localStorage['appSettings']` |
@@ -103,7 +100,7 @@ Ha alaphelyzetbe szeretnéd állítani az alkalmazást:
 
 ## Cookie-k
 
-Az alkalmazás a DezsoCloud szinkronizáláshoz az alábbi cookie-t használje:
+Az alkalmazás a DezsoCloud szinkronizáláshoz az alábbi cookie-t használja:
 
 - **`dezso_access_token`:** Hozzáférési token a DezsoCloud API-hoz (30 nap lejárat)
 
@@ -111,4 +108,4 @@ Ez a cookie csak DezsoCloud csatlakozás esetén jön létre.
 
 ## Adatvédelem
 
-📌 A teljes adatvédelmi nyilatkozat az alkalmazácó indítás sánnak jogállapotában szerepel (Terms of Service).
+📌 A teljes adatvédelmi nyilatkozat az alkalmazás indításakor megjelenő Terms of Service ablakban érhető el.

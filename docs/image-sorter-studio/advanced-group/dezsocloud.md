@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # DezsoCloud Szinkronizálás
 
-A DezsoCloud egy opcionális felhő alapú szinkronizálási szolgáltatás, amely a képválogatási adatokat (értékelések, jelölések, elutasítások) tárolta és több eszköz között megosztja.
+A DezsoCloud egy opcionális, felhő alapú szinkronizálási szolgáltatás, amely a képválogatási adatokat (értékelések, jelölések, elutasítások) tárolja és több eszköz között megosztja.
 
 ## Csatlakozás
 
@@ -44,8 +44,8 @@ Miután csatlakozottál, az alkalmazás automatikusan szinkronizál:
 
 Ha több helyről dolgozol, az alkalmazás **intelligensen összefésüli** az adatokat:
 
-1. Helyi adatok megörizhetn
-2. Felhő adatok betöltődnek
+1. A helyi adatok megőrződnek
+2. A felhő adatok betöltődnek
 3. **Összefésülés logikája:**
    - **Csillagok:** A magasabb értékelés győz
    - **Jelölések:** Egyesítésre kerülnek (VAGY logika)
@@ -81,7 +81,7 @@ Ha több helyről dolgozol, az alkalmazás **intelligensen összefésüli** az a
 Az adatok kezelése (törlés, módosítás) az alábbi oldalon érhető el:
 📌 [cloud.dezso.hu](https://cloud.dezso.hu)
 
-Bejelentkezés után az adatot összes kijelentkezésre összesítés lehetőség.
+Bejelentkezés után az összes adat megtekinthető és törölhető.
 
 ## Hibaelhárítás
 
@@ -98,10 +98,10 @@ Bejelentkezés után az adatot összes kijelentkezésre összesítés lehetősé
 Jellemzően 1–3 másodpercen belül. Nagyobb adatmennyiség (5000+ kép) lassabb lehet.
 
 **Mi történik, ha offline vagyok?**
-Az alkalmazás helyi tárolóban mentés szinkronizál, akkor később szinkronizál vissza.
+Az alkalmazás helyi tárolóban menti az adatokat, és amint a kapcsolat helyreáll, szinkronizál.
 
 **Biztonsági-e a szinkronizálás?**
 Igen, a kapcsolat titkosított (HTTPS), az adatok szerveren titkosítottan tárolódnak.
 
 **Költségei vannak?**
-A FREE terv ingyenes, PREMIUM opción nagyobb tárhellyel rendelkezik.
+A FREE terv ingyenes, a PREMIUM opcióban nagyobb tárhely áll rendelkezésre.

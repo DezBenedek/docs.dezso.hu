@@ -100,36 +100,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Dokumentáció',
-            items: [
-              {
-                label: 'Image Sorter Studio',
-                to: '/docs/image-sorter-studio/overview',
-              },
-            ],
-          },
-          {
-            title: 'Elérhetőségek',
-            items: [
-              {
-                label: 'Email',
-                href: 'mailto:benedek@dezso.hu',
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/DezBenedek',
-              },
-              {
-                label: 'Weboldal',
-                href: 'https://dezso.hu',
-              },
-            ],
-          }
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Dezso Studios. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dezso Studios`,
       },
       prism: {
         theme: prismThemes.github,

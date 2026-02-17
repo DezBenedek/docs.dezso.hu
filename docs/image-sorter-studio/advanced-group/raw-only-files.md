@@ -1,78 +1,78 @@
----
+ï»¿---
 sidebar_position: 1
 ---
 
-# RAW-Only Fájlok
+# RAW-Only FÃ¡jlok
 
-Ha a kiválasztott mappában vannak RAW fájlok, amelyekhez **nem tartozik JPG/PNG/WebP elõnézet**, az alkalmazás ezeket is betölti és teljes értékû képként kezeli.
+Ha a kivÃ¡lasztott mappÃ¡ban vannak RAW fÃ¡jlok, amelyekhez **nem tartozik JPG/PNG/WebP elÅ‘nÃ©zet**, az alkalmazÃ¡s ezeket is betÃ¶lti Ã©s teljes Ã©rtÃ©kÅ± kÃ©pkÃ©nt kezeli.
 
 ## Hogyan jelenik meg?
 
-### Kis nézetben (grid)
+### Kis nÃ©zetben (grid)
 
-Az alkalmazás **automatikusan kinyeri a RAW fájlba ágyazott JPEG elõnézetet**. Minden modern fényképezõgép beírja a RAW fájlba egy JPEG thumbnailét  ez kerül megjelenítésre a rácsban.
+Az alkalmazÃ¡s **automatikusan kinyeri a RAW fÃ¡jlba Ã¡gyazott JPEG elÅ‘nÃ©zetet**. Minden modern fÃ©nykÃ©pezÅ‘gÃ©p beleÃ­rja a RAW fÃ¡jlba a sajÃ¡t JPEG thumbnailjÃ¡t  ez kerÃ¼l megjelenÃ­tÃ©sre a rÃ¡csban.
 
-Ha a kinyerés nem sikerül (régi/sérült RAW fájl), akkor egy szürke SVG placeholder jelenik meg a kiterjesztéssel (pl. "ARW").
+Ha a kinyerÃ©s nem sikerÃ¼l (rÃ©gi/sÃ©rÃ¼lt RAW fÃ¡jl), akkor egy szÃ¼rke SVG placeholder jelenik meg a fÃ¡jl kiterjesztÃ©sÃ©vel (pl. ARW").
 
-A RAW-only kártyákon megjelenik egy **lila RAW badge** jelezve, hogy ez csak RAW fájl.
+A RAW-only kÃ¡rtyÃ¡kon megjelenik egy **lila RAW badge**, jelezve, hogy ez csak RAW fÃ¡jl.
 
-### Nagy nézetben (modal)
+### Nagy nÃ©zetben (modal)
 
-Amikor megnyitsz egy RAW-only képet:
+Amikor megnyitsz egy RAW-only kÃ©pet:
 
-1. **Azonnal megjelenik** a thumbnail (amit a rácsból is láttál), enyhe blur-rel
-2. **Háttérben betöltõdik** a teljes embedded JPEG preview (ez a legjobb minõségû kép a RAW fájlban)
-3. **Blur eltûnik**, megjelenik az élesebb, nagyobb felbontású preview
+1. **Azonnal megjelenik** a thumbnail (amit a rÃ¡csbÃ³l is lÃ¡ttÃ¡l), enyhe blur-rel
+2. **HÃ¡ttÃ©rben betÃ¶ltÅ‘dik** a teljes embedded JPEG preview (ez a legjobb minÅ‘sÃ©gÅ± kÃ©p a RAW fÃ¡jlban)
+3. **A blur eltÅ±nik**, megjelenik az Ã©lesebb, nagyobb felbontÃ¡sÃº preview
 
 :::info
-**Minõség:** A legtöbb modern kamera (Sony, Canon, Nikon, Fujifilm stb.) teljes vagy közel teljes felbontású JPEG-et ment a RAW fájlba. Ez elegendõ a válogatáshoz és értékeléshez.
+**MinÅ‘sÃ©g:** A legtÃ¶bb modern kamera (Sony, Canon, Nikon, Fujifilm stb.) teljes vagy kÃ¶zel teljes felbontÃ¡sÃº JPEG-et ment a RAW fÃ¡jlba. Ez elegendÅ‘ a vÃ¡logatÃ¡shoz Ã©s Ã©rtÃ©kelÃ©shez.
 :::
 
-## Technikai háttér
+## Technikai hÃ¡ttÃ©r
 
-A RAW fájlok belsõ szerkezete:
+A RAW fÃ¡jlok belsÅ‘ szerkezete:
 
 ```
-RAW fájl belsõ tartalma:
- RAW képadat (nyers szenzor adatok)
+RAW fÃ¡jl belsÅ‘ tartalma:
+ RAW kÃ©padat (nyers szenzor adatok)
  EXIF metaadatok
- Kis JPEG thumbnail (általában ~160×120 px)
- Nagy JPEG preview (általában ~1920×1280 px vagy teljes res)
+ Kis JPEG thumbnail (Ã¡ltalÃ¡ban ~160Ã—120 px)
+ Nagy JPEG preview (Ã¡ltalÃ¡ban ~1920Ã—1280 px vagy teljes felbontÃ¡s)
 ```
 
-Az alkalmazás a **beágyazott JPEG preview-kat** keresi a fájlban (JPEG SOI marker: `FF D8 FF`), és a legmagasabb felbontásút jeleníti meg.
+Az alkalmazÃ¡s a **beÃ¡gyazott JPEG preview-kat** keresi a fÃ¡jlban (JPEG SOI marker: `FF D8 FF`), Ã©s a legmagasabb felbontÃ¡sÃºt jelenÃ­ti meg.
 
-## Megjelenítési módok összehasonlítása
+## MegjelenÃ­tÃ©si mÃ³dok Ã¶sszehasonlÃ­tÃ¡sa
 
-| | JPG/PNG kép | RAW-only fájl |
+| | JPG/PNG kÃ©p | RAW-only fÃ¡jl |
 |---|---|---|
-| **Kis nézet** | Original thumbnail | Beágyazott JPEG thumbnail |
-| **Nagy nézet** | Eredeti fájl | Beágyazott JPEG preview |
-| **Minõség** | Eredeti | Kamera által generált |
-| **Betöltési sebesség** | Azonnali | 1-3 mp (nagy fájlok) |
+| **Kis nÃ©zet** | Eredeti thumbnail | BeÃ¡gyazott JPEG thumbnail |
+| **Nagy nÃ©zet** | Eredeti fÃ¡jl | BeÃ¡gyazott JPEG preview |
+| **MinÅ‘sÃ©g** | Eredeti | Kamera Ã¡ltal generÃ¡lt |
+| **BetÃ¶ltÃ©si sebessÃ©g** | Azonnali | 13 mp (nagy fÃ¡jlok) |
 
-## Kezelés és export
+## KezelÃ©s Ã©s export
 
-A RAW-only képek ugyanúgy kezelhetõk mint a normál képek:
+A RAW-only kÃ©pek ugyanÃºgy kezelhetÅ‘k, mint a normÃ¡l kÃ©pek:
 
-- **Csillagozás:** 1-5 csillag beállítható
-- **Flagging:** Megjelölhetõ fontosnak
-- **Elutasítás:** Selejtezethetõ
-- **Export:** A RAW fájl közvetlenül másolásra kerül a célmappába
+- **CsillagozÃ¡s:** 15 csillag beÃ¡llÃ­thatÃ³
+- **Flagging:** MegjelÃ¶lhetÅ‘ fontosnak
+- **ElutasÃ­tÃ¡s:** SelejtezhetÅ‘k
+- **Export:** A RAW fÃ¡jl kÃ¶zvetlenÃ¼l mÃ¡solÃ¡sra kerÃ¼l a cÃ©lmappÃ¡ba
 
-## Szûrõk
+## SzÅ±rÅ‘k
 
-A RAW-only képek megjelennek az összes szûrõben:
+A RAW-only kÃ©pek megjelennek az Ã¶sszes szÅ±rÅ‘ben:
 
-| Szûrõ | Viselkedés |
+| SzÅ±rÅ‘ | ViselkedÃ©s |
 |---|---|
-| Összes | Megjelenik |
-| Jelölt | Ha jelöltük, megjelenik |
-| Elutasított | Ha elutasítottuk, megjelenik |
-| Értékelt (min. rating) | Ha értékeltük, megjelenik |
+| Ã–sszes | Megjelenik |
+| JelÃ¶lt | Ha jelÃ¶ltÃ¼k, megjelenik |
+| ElutasÃ­tott | Ha elutasÃ­tottuk, megjelenik |
+| Ã‰rtÃ©kelt (min. rating) | Ha Ã©rtÃ©keltÃ¼k, megjelenik |
 
 ## Tippek
 
-Ha sok RAW-only van, a betöltés hosszabb ideig tarthat (20-80 MB fájlok). Ez normális.
+Ha sok RAW-only fÃ¡jl van, a betÃ¶ltÃ©s hosszabb ideig tarthat (2080 MB-os fÃ¡jlok esetÃ©n ez normÃ¡lis).
 
-Ha egy RAW fájlból nem sikerül kinyerni az embedded JPEG-et, az alkalmazás SVG placeholdert mutat. Ez rendkívül ritka, és általában sérült fájlra utal.
+Ha egy RAW fÃ¡jlbÃ³l nem sikerÃ¼l kinyerni az embedded JPEG-et, az alkalmazÃ¡s SVG placeholdert mutat. Ez rendkÃ­vÃ¼l ritka, Ã©s Ã¡ltalÃ¡ban sÃ©rÃ¼lt fÃ¡jlra utal.

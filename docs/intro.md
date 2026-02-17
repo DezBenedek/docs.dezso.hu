@@ -1,47 +1,27 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Üdvözöljük a dokumentációban!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Ez az oldal a **Dezso Studios** által fejlesztett alkalmazások és eszközök hivatalos gyűjtőhelye. Itt megtalálhat minden szükséges információt a szoftvereink telepítéséről, használatáról és finomhangolásáról.
 
-## Getting Started
+## Alkalmazások listája
 
-Get started by **creating a new site**.
+Jelenleg az alábbi projektjeinkhez érhető el részletes dokumentáció:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 📸 Image Sorter Studio
+A fotósok számára készült intelligens képválogató szoftver, amely drasztikusan felgyorsítja a nyers képek szortírozását.
+*   **[Gyors kezdés guide](./image-sorter-studio/guide-group/quick-start)**
+*   **[Részletes funkciók](./image-sorter-studio/features-group/ui-toolbar)**
+*   **[Munkafolyamat tippek](./image-sorter-studio/guide-group/workflow)**
 
-### What you'll need
+---
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 🚀 Továbbiak hamarosan...
+Folyamatosan dolgozunk új eszközökön és a hozzájuk tartozó leírásokon. Nézzen vissza később!
 
-## Generate a new site
+## Hogyan használd a dokumentációt?
+A bal oldali menüsáv segítségével böngészhetsz a különböző kategóriák és alkalmazások között. Ha elakadsz, javasoljuk a **Gyors kezdés** útmutatók áttekintését az adott szoftvernél.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest docs.dezso.hu classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd docs.dezso.hu
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

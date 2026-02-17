@@ -13,7 +13,7 @@ A rácsnézetben egy kép előnézetére kattintva (vagy a kártyát dupla katti
 - **Bezárás (X):** Vissza a rácsnézetbe
 
 ### Kép terület
-A kép a képernyő közepén jelenik meg, maximumosan 90%-os szélességben és magasságban.
+A kép a képernyő közepén jelenik meg, legfeljebb 90%-os szélességben és magasságban.
 
 ### Alsó sáv
 - **Értékelés gomb (5 csillag):** Az aktuális értékelés; kattintással módosítható
@@ -26,7 +26,7 @@ A kép a képernyő közepén jelenik meg, maximumosan 90%-os szélességben és
 
 | Módszer | Lépés |
 |---|---|
-| **Bal/jobb nyil gomb** | Kattintás a kép oldala mellett |
+| **Bal/jobb nyíl gomb** | Kattintás a kép oldala mellett |
 | **Billentyűzet** | `←` / `→` nyíl gombokkal |
 | **Gombok** | A képernyő két szélén lévő kerek gombok |
 
@@ -67,7 +67,7 @@ Az egér húzása zoomolt képnél a képet mozgatja. A kurzor `grab` (kéz) iko
 | Módszer |
 |---|
 | X gomb megnyomása |
-| `Esc` billentyűzet |
+| `Esc` billentyű |
 | A sötét háttérre kattintás |
 
 ## Billentyűparancsok — Gyors referencia

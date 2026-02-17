@@ -15,8 +15,8 @@ Ez egy lépésről-lépésre útmutató az Image Sorter Studio első használat�
 
 ## 2. lépés: Mappa kiválasztása
 
-1. Kattints az **Mappa kiválasztása** (📁) gombra a fejlécben
-2. Böngészed meg a fájlrendszert és válassz egy mappát **JPG/PNG/RAW fájlokkal**
+1. Kattints a **Mappa kiválasztása** (📁) gombra a fejlécben
+2. Böngészd meg a fájlrendszert és válassz egy mappát **JPG/PNG/RAW fájlokkal**
 3. Kattints az **Engedélyezés** gombra
 4. Az alkalmazás betölti az összes képet
 
@@ -42,7 +42,7 @@ Kattints egy képre a rácsban:
 
 1. **Teljes képernyős megjelenítés** nyílik meg
 2. **Jobb oldalon:** Csillag, Flag, Elutasítás (X) gombok
-3. **Billentyűk:** F, X, 1-5 erre a gombokra
+3. **Elérhető billentyűk:** Y (jelölés), X (elutasítás), 1–5 (értékelés)
 
 ## 5. lépés: Selejtezés (Első körben)
 
@@ -58,20 +58,20 @@ A teljes képernyős nézetben:
    - Az alkalmazás a **következő képre** ugrik
    - Az elutasított kép már nem kerül exportálásra
 
-3. **Nyilak vagy O/Ctrl gombok:** Következő/Előző kép
+3. **Nyíl gombokkal (← / →) vagy a kép szélére kattintva** léphetsz a következő képre
 
 :::info
-**Tipp:** A selejtezés gyorsabb, mint az értékelés. Az első körben csak az "obvious" rossz képeket jelöld meg. A finom válogatást később az értékeléssel végzed.
+**Tipp:** A selejtezés gyorsabb, mint az értékelés. Az első körben csak a nyilvánvalóan rossz képeket jelöld meg. A finom válogatást később az értékeléssel végzed.
 :::
 
 ## 6. lépés: Flagging (Másodlagos jelölés)
 
 Az első körben maradt képekre:
 
-1. Nyomd meg az **F billentyűt** (vagy kattints a **Flag** gombra)
-2. A kép **kék zászlót** kap
+1. Nyomd meg az **Y billentyűt** (vagy kattints a **Flag** gombra)
+2. A kép **zöld zászlót** kap
 3. Ez a legjobb képek jelölésére használható
-4. **Nyíl vagy O/Ctrl:** Következő kép
+4. **Nyíl gombokkal (← / →)** léphetsz a következő képre
 
 :::tip
 **Mikor használd a Flag-et:**
@@ -106,9 +106,8 @@ Az összes megmaradó képet értékeld:
 Ha befejeztél az értékeléssel (vagy párhuzamosan):
 
 1. **Felül:** Szűrés opciók
-2. **Min. rating:** Válassz 3+ értéket (csak a jó képek)
-3. **Tag filter:** (Ha használsz tageket)
-4. A rács **automatikusan szűrődik**
+2. **Min. rating:** Válassz 3+ értéket (csak a jó képek jelennek meg)
+3. A rács **automatikusan szűrődik**
 
 ## 9. lépés: Exportálás
 
@@ -119,15 +118,15 @@ Ha befejeztél az értékeléssel (vagy párhuzamosan):
    - ☑️ Csak jelölttek (Flag)
    - ☑️ Min. rating: 3 (vagy magasabb)
 3. Kattints az **Export** gombra
-4. **Fájl kiválasztása:** Hová szeretnéd menteni a fájlokat
-5. Az alkalmazás **kiexportálja** a képeket
+4. **Mappa kiválasztása:** Hová szeretnéd másolni a fájlokat
+5. Az alkalmazás **exportálja** a fájlokat
 
-### Opció B: JSON export (Haladó)
+### Opció B: JSON mentés (Haladó)
 
-1. Kattints a **JSON Download** linkre (⚙️ menüben)
+1. Kattints az **Export** (↓) gombra, majd a **„Munkamenet mentése JSON-ba"** linkre
 2. Egy `.json` fájl mentésre kerül
-3. A fájl tartalmazza az összes értékelést
-4. Később importálhatod vissza az adatokat
+3. A fájl tartalmazza az összes értékelést és jelölést
+4. Később importálhatod vissza az adatokat az **Import** (↑) gombbal
 
 ## 10. lépés: Kész!
 
@@ -169,7 +168,7 @@ Most már:
 ```
 1. Mappa kiválasztása (📁)
 2. Selejtezés (X) - rossz képek
-3. Flagging (F) - legjobb képek
+3. Flagging (Y) - legjobb képek
 4. Csillagozás (1-5) - összes kép
 5. Szűrés (min. rating 3+)
 6. Exportálás (📤)
