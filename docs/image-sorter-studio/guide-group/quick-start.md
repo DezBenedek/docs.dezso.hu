@@ -10,7 +10,7 @@ Ez egy lépésről-lépésre útmutató az Image Sorter Studio első használat�
 
 1. Nyisd meg az Image Sorter Studio-t: https://img.dezso.hu
 2. A böngésző a **Jogi nyilatkozat** (Terms of Service) ablakot mutatja
-3. Olvass el és kattints az **Elfogadom** gombra
+3. Olvasd el, majd kattints az **Elfogadom** gombra
 4. Az alkalmazás betöltődik
 
 ## 2. lépés: Mappa kiválasztása
@@ -21,10 +21,10 @@ Ez egy lépésről-lépésre útmutató az Image Sorter Studio első használat�
 4. Az alkalmazás betölti az összes képet
 
 :::tip
-**Szokott kérdések:**
-- *Nincs mappa gomb?* → Böngésző frissítés (Chrome 86+, Edge 86+)
-- *"Permission Denied" hiba?* → A böngésző nem fér hozzá a mappához (próbáld egy másik helyet)
-- *Nagyon lassan töltődik?* → Normális 1000+ kép esetén (várd meg)
+**Gyakori kérdések:**
+- *Nincs mappa gomb?* → Csak Chrome 86+ és Edge 86+ támogatott
+- *„Permission Denied" hiba?* → A böngésző nem fér hozzá a mappához (próbálj egy másik mappát)
+- *Nagyon lassan töltődik?* → 1000+ kép esetén ez normális, várd meg
 :::
 
 ## 3. lépés: Képek megjelenítése
@@ -32,9 +32,8 @@ Ez egy lépésről-lépésre útmutató az Image Sorter Studio első használat�
 Amint a képek betöltődnek:
 
 - **Bal oldal:** Képek **rácsos nézete** (grid)
-- **Grid kártyákon:** Sorszám, RAW státusz (ha vannak)
-- **Felül:** Szűrés és rendezés opciók
-- **Jobb oldal:** (Üres, amíg nem nyitsz meg egy képet)
+- **Grid kártyákon:** Sorszám, RAW badge (RAW-only fájloknál)
+- **Felül:** Szűrés és rendezés
 
 ## 4. lépés: Első kép megnyitása
 
@@ -48,10 +47,10 @@ Kattints egy képre a rácsban:
 
 A teljes képernyős nézetben:
 
-1. **Nyilvánvaló utolsók azonosítása:**
-   - Elmosódott képek
+1. **Nyilvánvalóan rossz képek azonosítása:**
+   - Elmosódott, fókusz nélküli képek
    - Zárt szemek
-   - Technikai hibák
+   - Technikai hibák (túl- vagy alulexponált)
 
 2. **Az X gomb megnyomása (vagy Delete billentyű):**
    - A kép **szürke X** ikont kap
@@ -152,7 +151,7 @@ Most már:
 - ✅ Böngésző konzol ellenőrzése (F12)
 
 ### "Az export nem működik"
-- ✅ Legalább egy képnek 1+ csillagnak kell lennie
+- ✅ Legalább egy képnek értékeltnek kell lennie (1+ csillag)
 - ✅ Próbáld az egyszerű exportot (szűrés nélkül)
 - ✅ A RAW fájlok másolása hosszú ideig tarthat (várd meg)
 

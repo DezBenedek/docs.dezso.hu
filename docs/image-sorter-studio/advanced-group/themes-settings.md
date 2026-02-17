@@ -35,12 +35,12 @@ Minden billentyűparancs módosítható:
 
 1. Kattints a módosítani kívánt beviteli mezőre
 2. Nyomd meg az új billentyűt (max 1 karakter)
-3. A billentyű automatikusan feljegyzésre kerül
+3. A beállítás automatikusan rögzítődik
 4. Kattints a **Mentés** gombra
 
 ### Korlátozások
 
-- Csak **alphanumerikus karakterek** engedélyeztek (a–z, 0–9)
+- Csak **alfanumerikus karakterek** engedélyezettek (a–z, 0–9)
 - Összetett billentyűk (Ctrl+A stb.) nem támogatottak
 
 ### Alaphelyzet
@@ -55,7 +55,7 @@ A Beállítások ablak felső szekciójában az alábbiak lehetségesek:
 
 Ha még nincsen csatlakozva:
 1. Kattints a **Connect** gombra
-2. Böngésző megnyitja az OAuth oldalt
+2. A böngésző megnyitja az OAuth oldalt
 3. Bejelentkezés után automatikus szinkronizálás
 
 ### Kijelentkezés
@@ -93,7 +93,7 @@ Az alkalmazás a böngésző helyi tárolóját (LocalStorage) használja az al�
 
 Ha alaphelyzetbe szeretnéd állítani az alkalmazást:
 
-1. Böngésző DevTools megnyitása (`F12`)
+1. A böngésző DevTools megnyitása (`F12`)
 2. **Storage** / **Application** fül
 3. **Local Storage** → az alkalmazás URL-je
 4. Összes adat törlése

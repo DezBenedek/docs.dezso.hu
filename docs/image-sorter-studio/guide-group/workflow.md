@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Munka folyamat
+# Munkafolyamat
 
-Az Image Sorter Studio a **3 körös selejtezési módszeren** alapul. Ez egy bevált fényképészeti szortírozási technika, amely garantálja a legminőségibb képek kiválasztását.
+Az Image Sorter Studio a **3 körös válogatási módszeren** alapul. Ez egy bevált fényképészeti szortírozási technika, amely segít a legjobb képek gyors és hatékony kiválasztásában.
 
 ## A 3 körös módszer
 
@@ -12,25 +12,25 @@ Az Image Sorter Studio a **3 körös selejtezési módszeren** alapul. Ez egy be
 
 Az első körben a nyilvánvalóan hibás képeket jelölöd meg az **X** gombbal.
 
-**Mitől jelöl meg selejtezésre:**
+**Mit jelölj selejtezésre:**
 - Teljesen elmosódott felvételek
 - Zárt szemek
 - Rossz kompozíció
 - Technikai hibák (túlexponált, alulexponált)
-- Képernyő-szelek vagy véletlen felvételek
+- Képernyő szélei vagy véletlen felvételek
 
 **Hogyan jelenik meg:**
 - Selejtés után a képen egy **szürke X** ikon jelenik meg
-- Exportáláskor a selejtézett képek kihagyodásra kerülnek
+- Exportáláskor a selejtezett képek kihagyásra kerülnek
 
 ### 2. kör: Finomítás (Flag)
 
 A maradék képekből kiválasztod a **flagged** (megjelölt) képeket az **Y** billentyűvel.
 
-**Mit jelölj meg flagként:**
+**Mit jelölj meg (flag):**
 - Képek, amelyek potenciálisan erős szekcióba kerülhetnek
 - Alternatív szögek vagy pózok
-- Fejlesztésre érdemes, de még nem "arany"
+- Ígéretes képek, amelyek szerkesztéssel sokat nyerhetnek
 
 **Hogyan jelenik meg:**
 - A flagged képeken egy **zöld zászló** ikon jelenik meg
@@ -48,7 +48,7 @@ Az összes megmaradt képet **1–5 csillag** között értékelsz.
 - ⭐⭐⭐⭐⭐ **5 csillag:** Masterpiece, azonnal használható
 
 **Billentyűparancsok:**
-- **1 - 5:** Közvetlenül az adott csillag rendelhető
+- **1–5:** Közvetlenül az adott csillagszám állítható be
 - **+ / -:** Csillag hozzáadása/eltávolítása
 
 ## Alternatív munkafolyamatok
@@ -57,8 +57,8 @@ Az összes megmaradt képet **1–5 csillag** között értékelsz.
 
 Ha csak a legjobb képeket szeretnéd megtartani:
 
-1. **Selejtezés:** Nyilvánvaló utolsók eltávolítása
-2. **Flagging:** Csak az 5 csillagos képeket jelöld meg
+1. **Selejtezés:** Nyilvánvalóan rossz képek eltávolítása
+2. **Flagging:** Csak a legjobb képeket jelöld meg
 3. **Export:** Csak a flagged képek exportálása
 
 ```
@@ -71,7 +71,7 @@ Export opciók:
 
 Ha van idő részletesebb értékelésre:
 
-1. **Selejtezés:** Nyilvánvaló utolsók
+1. **Selejtezés:** Nyilvánvalóan rossz képek eltávolítása
 2. **Értékelés:** Összes kép csillagozása
 3. **Szűrés:** Min. rating = 3 (vagy 4)
 4. **Export:** Szűrt képek
@@ -86,7 +86,7 @@ Export opciók:
 
 ### RAW + JPEG párok
 
-Ha vannak **RAW + JPEG párod:**
+Ha vannak **RAW + JPEG párjaid:**
 
 1. A szoftver automatikusan párosítja őket
 2. Az értékelés mindkét fájlra vonatkozik
@@ -128,13 +128,12 @@ Lásd: [DezsoCloud integrálás](../advanced-group/dezsocloud)
 
 Komplex szortírozáshoz kombináld az eszközöket:
 
-**Forgatókönyv: "Bridal szekció, csak 4+ csillag"**
-1. **Szűrés:** Bridal tag
-2. **Rendezés:** Rating → descending
-3. **Exportálás:** Min. rating = 4
-4. **Export:** Az összes kiválasztott megfelelő kép exportálva
+**Forgatókönyv: „Csak a 4+ csillagos képek exportálása"**
+1. **Szűrő:** Értékelt → 4+
+2. **Rendezés:** Legtöbb csillag elöl
+3. **Export:** Min. rating = 4
 
-## Billentyűparancsok gyorstálálózat
+## Billentyűparancsok – Gyors áttekintés
 
 | Billentyű | Funkció |
 |---|---|

@@ -14,7 +14,7 @@ A szűrőkre kattintva a nézet azonnal frissül, csak a szűrt képek látszana
 Az alapértelmezett szűrő. Minden betöltött képet megjelenít, függetlenül az értékelés, jelölés vagy elutasítás állapotától.
 
 ### Jelölt (🚩)
-Csak a zászlóval jelölt képeket mutatja. Ezek a képek a jelöléskor zöld kerettel és zöld zászló badge-dzsel vannak megjelölve.
+Csak a zászlóval jelölt képeket mutatja. Ezek a képek a jelöléskor zöld kerettel és zöld zászló badge-gel vannak megjelölve.
 
 ### Elutasított (✕)
 Csak az `X` billentyűvel vagy gombbal elutasított képeket mutatja. Ezek a képek halványítva és piros kerettel jelennek meg.
@@ -53,7 +53,7 @@ A fájlneveket az alkalmazás kis- és nagybetűre érzékenyen rendezi, a szám
 
 ## Szűrők kombinálása — Tipp
 
-Egy szűrő csak egy lehet aktív egyszerre. Ha például szeretnéd csak az 5 csillagos **és** jelölt képeket látni:
+Egyszerre csak egy szűrő lehet aktív. Ha például csak az 5 csillagos **és** jelölt képeket szeretnéd látni:
 
 1. **Nem** lehet mindkettőt szűrőként kiválasztani
 2. **Megoldás:** Válaszd az 5 csillagos szűrőt, majd a rácsnézetben manuálisan keress a jelölt képek között

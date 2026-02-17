@@ -8,9 +8,9 @@ A JSON-ba történő exportálás lehetővé teszi a teljes válogatási munkame
 
 ## Miért használd?
 
-- **Szünet a munkában:** Le kell állnod a válogatáshoz? Mentsd el és folytasd később
-- **Biztonsági mentés:** a munkamenet védelmet kap
-- **Megosztás:** Kollegákkal megoszthatod a válogatás eredményét
+- **Szünet a munkában:** Le kell állnod a válogatással? Mentsd el és folytasd később
+- **Biztonsági mentés:** az adataid biztonságban lesznek
+- **Megosztás:** Kollégákkal megoszthatod a válogatás eredményét
 - **Szervezés:** Adatok elemzéséhez vagy szűréshez
 
 ## JSON letöltése (mentés)
@@ -93,12 +93,12 @@ A betöltés **nem felülírja** az aktuális adatokat, hanem **összefésüli**
 ## Ismert korlátok
 
 - A JSON csak az **értékeléseket, jelöléseket és elutasításokat** tartalmazza, nem a valódi képfájlokat
-- Ha egy fájl később **átnevezésre** kerül, az adatok nem asszociálódnak automatikusan
+- Ha egy fájl később **átnevezésre** kerül, az adatok nem kerülnek automatikusan párosításra
 - A RAW-only fájlok JSON-ben ugyanúgy vannak tárolva, mint a normál képek
 
 ## Haladó — Szöveges szerkesztés
 
-Ha erősen technikusnak érzed magad, a JSON fájlt szöveges szerkesztővel (Notepad++, VS Code) módosíthatod:
+Ha ismered a JSON formátumot, a fájlt bármilyen szöveges szerkesztővel (Notepad++, VS Code) módosíthatod:
 
 1. Nyisd meg a JSON-t egy szöveges szerkesztőprogramban
 2. Módosítsd az értékeket (`rating`, `flagged`, `rejected`)

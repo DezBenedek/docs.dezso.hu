@@ -18,7 +18,7 @@ Ha bekapcsolod, csak a zászlóval jelölt képek RAW fájljai exportálódnak.
 #### Minimum értékelés
 Beállíthatod a minimum csillagszámot (1–5). Csak az ezt elérő vagy meghaladó értékelésű képek kerülnek exportálásra.
 
-> **Mindkét szűrő közül:** Ha mindkettő be van pipálva, azok a képek kerülnek exportálásra, amelyek **jelöltek** VAGY **elérik a minimum csillagszámot** (VAGY logika).
+> **Ha mindkét szűrő aktív:** Azok a képek kerülnek exportálásra, amelyek **jelöltek** VAGY **elérik a minimum csillagszámot** (VAGY logika).
 
 > **Elutasított képek soha nem kerülnek exportálásra**, függetlenül a beállításoktól.
 
@@ -33,7 +33,7 @@ Ez az opció csak akkor jelenik meg, ha vannak RAW pár nélküli képek. Ha bek
 
 Az ablak alján egy összesítő mutatja:
 - Az exportálható fájlok **számát**
-- Az eredeti képek számát (zárójekben)
+- Az eredeti képek számát (zárójelben)
 - A részletes fájllistát (kinyitható)
 
 ### Fájllista megjelenítése
@@ -58,13 +58,13 @@ A **„Részletes fájllista megtekintése"** szekció kiterjesztésével látha
 
 ## Hiba-kezelés
 
-Ha egy fájl másolása meghiúsul (pl. hozzáférési jog hiányában vagy fizikai drive hiba miatt):
+Ha egy fájl másolása meghiúsul (pl. jogosultság hiánya vagy fizikai meghajtóhiba miatt):
 - Az alkalmazás **folytatja** a többi fájllal
 - A végén egy **összefoglaló** mutatja a sikertelen fájlokat
 - Az átmásolt fájlok a célmappában maradnak
 
 ## Tanácsok
 
-- **Gyors előzetes:** Az exportálás előtt szűrd le a képeket az aktuális munkamenet szűrőit használva
+- **Előzetes szűrés:** Az exportálás előtt alkalmazz szűrőket, hogy csak a kívánt képek kerüljenek exportálásra
 - **Biztonsági mentés:** Az exportálás csak másolja a fájlokat, az eredeti megmarad
 - **Többszörös export:** Többször is exportálhatsz ugyanabba a mappába (felülírja az azonos nevű fájlokat)

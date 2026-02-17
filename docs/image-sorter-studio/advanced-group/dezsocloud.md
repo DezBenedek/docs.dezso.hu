@@ -13,7 +13,7 @@ A DezsoCloud egy opcionális, felhő alapú szinkronizálási szolgáltatás, am
 1. Kattints a **Beállítások** (⚙️) gombra a fejlécben
 2. A legfelső szekció az **„Dezso Cloud"** blokk
 3. Kattints a **„Connect"** gombra
-4. Böngésző átirányít a DezsoCloud OAuth bejelentkezési oldalára
+4. A böngésző átirányít a DezsoCloud OAuth bejelentkezési oldalára
 5. Jelentkezz be a fiókodba (vagy regisztrálj)
 6. Engedélyezd az alkalmazás hozzáférését
 7. Automatikus átirányítás után az alkalmazás szinkronizál
@@ -22,7 +22,7 @@ A DezsoCloud egy opcionális, felhő alapú szinkronizálási szolgáltatás, am
 
 Csatlakozás után a DezsoCloud szekció a következőt mutatja:
 
-- **Felhasználó neve és e-maile**
+- **Felhasználóneve és e-mail-címe**
 - **Csatlakozás állapota:** Zöld pont, „Connected" felirat
 - **Díjcsomag:** Az aktuális terv (pl. FREE, PREMIUM)
 - **Tárhely használat:** Pl. „12.5 / 100 MB"
@@ -38,7 +38,7 @@ Miután csatlakozottál, az alkalmazás automatikusan szinkronizál:
 | Értékelés módosítása | ✅ Rögzítés után |
 | Jelölés módosítása | ✅ Rögzítés után |
 | Elutasítás módosítása | ✅ Rögzítés után |
-| Alkalmazás indítása | ✅ Ha már Connected |
+| Alkalmazás indítása | ✅ Ha már csatlakozva van |
 
 ## Adatösszefésülés
 
@@ -52,7 +52,7 @@ Ha több helyről dolgozol, az alkalmazás **intelligensen összefésüli** az a
    - **Elutasítások:** Egyesítésre kerülnek (VAGY logika)
 
 **Példa:**
-- Otthon értékeltél 5 csillag egy képet
+- Otthon 5 csillagot adtál egy képnek
 - Másik eszközön 3 csillag lett
 - Szinkronizálás után: 5 csillag marad (magasabb értékelés)
 
@@ -60,11 +60,11 @@ Ha több helyről dolgozol, az alkalmazás **intelligensen összefésüli** az a
 
 1. Nyisd meg a **Beállítások** ablakot
 2. A DezsoCloud szekciónál kattints a **„Kijelentkezés"** gombra
-3. A csatlakozás bontódik
-4. A helyi adatok megmaradnak (nem törlődik)
+3. A kapcsolat megszakad
+4. A helyi adatok megmaradnak (nem törlődnek)
 5. A szinkronizálás leáll
 
-## Adatkezelés és magánszféra
+## Adatkezelés és adatvédelem
 
 ### Mi kerül fel?
 - Fájlnevek
@@ -89,8 +89,8 @@ Bejelentkezés után az összes adat megtekinthető és törölhető.
 |---|---|
 | **Szinkronizálás nem működik** | Ellenőrizd az internet kapcsolatod |
 | **Bejelentkezés sikertelen** | Próbáld meg az incognito/privát módot |
-| **Lassú szinkronizálás** | Nagyobb adatmennyiség esetén várj, vagy csökkentsd az értékeltek számát |
-| **Fiók törlése** | Nézz rá a cloud.dezso.hu oldalra |
+| **Lassú szinkronizálás** | Nagyobb adatmennyiség esetén ez várható, várd meg |
+| **Fiók törlése** | Látogass el a cloud.dezso.hu oldalra |
 
 ## Gyakori kérdések
 
@@ -100,7 +100,7 @@ Jellemzően 1–3 másodpercen belül. Nagyobb adatmennyiség (5000+ kép) lassa
 **Mi történik, ha offline vagyok?**
 Az alkalmazás helyi tárolóban menti az adatokat, és amint a kapcsolat helyreáll, szinkronizál.
 
-**Biztonsági-e a szinkronizálás?**
+**Biztonságos a szinkronizálás?**
 Igen, a kapcsolat titkosított (HTTPS), az adatok szerveren titkosítottan tárolódnak.
 
 **Költségei vannak?**

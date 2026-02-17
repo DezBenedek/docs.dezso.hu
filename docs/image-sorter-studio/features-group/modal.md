@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Teljes Képernyős Nézet (Modal)
 
-A rácsnézetben egy kép előnézetére kattintva (vagy a kártyát dupla kattintva) megnyílik a teljes képernyős nézet.
+A rácsnézetben egy kép előnézetére kattintva (vagy a kártyára duplán kattintva) megnyílik a teljes képernyős nézet.
 
 ## Felépítés
 
@@ -20,7 +20,6 @@ A kép a képernyő közepén jelenik meg, legfeljebb 90%-os szélességben és 
 - **Jelölés (🚩):** Zászló be/ki
 - **Elutasítás (✕):** Elutasítás be/ki
 - **Sorszám:** pl. „42 / 1523"
-- **Tipp:** Ráközelítéshez használd a görgőt
 
 ## Navigáció
 
