@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocs_dezso_hu=globalThis.webpackChunkdocs_dezso_hu||[]).push([[1903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/docs.dezso.hu/blog","blogTitle":"Blog","authorsListPath":"/docs.dezso.hu/blog/authors"}')}}]);
